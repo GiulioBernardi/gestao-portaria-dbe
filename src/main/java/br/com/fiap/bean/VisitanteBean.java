@@ -33,7 +33,8 @@ public class VisitanteBean {
 		visitante.setImagePath(path);
 		
 		dao.create(visitante);
-		
+
+	
 		showMessage("Visitante cadastrado com sucesso");
 		
 		return "visitantes";
