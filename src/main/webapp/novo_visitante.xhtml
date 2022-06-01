@@ -60,7 +60,7 @@
 						</p:inputText>
 					</div>
 
-					<div class="p-field">
+					<!-- <div class="p-field">
 						<label for="cadastro">Data de cadastro</label>
 						<p:datePicker value="#{visitanteBean.visitante.cadastro}"
 							id="cadastro" yearNavigator="true" required="true"
@@ -68,7 +68,7 @@
 							<f:ajax event="blur" render="msg" />
 						</p:datePicker>
 
-					</div>
+					</div> -->
 
 					<br />
 
@@ -86,7 +86,7 @@
 				</div>
 				<f:facet name="footer">
 					<p:commandButton icon="pi pi-check" value="Save"
-						action="#{visitanteBean.save}" />
+						action="#{visitanteBean.save()}" />
 					<p:commandButton icon="pi pi-times" value="Cancel"
 						styleClass="ui-button-secondary" style="margin-left: .5em" />
 				</f:facet>

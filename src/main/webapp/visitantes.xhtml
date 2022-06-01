@@ -13,10 +13,11 @@
 				<p:dataTable var="visitante" value="#{visitanteBean.list()}"
 					editable="true">
 
-					<p:ajax event="rowEdit" listener="#{visitanteBean.edit()}" />
+
+					<p:ajax event="rowEdit" listener="#{visitanteBean.save(visitante)}"/>
 
 					<p:column>
-						<img src="${request.contextPath}${visitante.imagePath}" style="width: 120px"/>
+						<img src="${request.contextPath}${visitante.imagePath}" style="width: 120px" />
 					</p:column>
 
 					<p:column headerText="Code">

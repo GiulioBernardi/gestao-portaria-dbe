@@ -17,7 +17,7 @@ public class Visitante {
 	private Long cpf;
 	private Long rg;
 	private char digitoRG;
-	private LocalDate cadastro;
+	private LocalDate cadastro = LocalDate.now();
 	private String imagePath;
 	
 	public Visitante() {
@@ -31,7 +31,7 @@ public class Visitante {
 		this.cpf = cpf;
 		this.rg = rg;
 		this.digitoRG = digitoRG;
-		this.cadastro = cadastro;
+		this.cadastro = LocalDate.now();
 	}
 
 	public Visitante(Long id, String name, LocalDate nascimento, Long cpf, Long rg, char digitoRG, LocalDate cadastro) {
@@ -42,7 +42,7 @@ public class Visitante {
 		this.cpf = cpf;
 		this.rg = rg;
 		this.digitoRG = digitoRG;
-		this.cadastro = cadastro;
+		this.cadastro = LocalDate.now();
 	}
 
 	public Long getId() {
