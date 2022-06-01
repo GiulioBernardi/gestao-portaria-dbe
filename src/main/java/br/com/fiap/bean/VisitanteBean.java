@@ -34,7 +34,6 @@ public class VisitanteBean {
 		
 		dao.create(visitante);
 
-	
 		showMessage("Visitante cadastrado com sucesso");
 		
 		return "visitantes";
