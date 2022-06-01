@@ -6,7 +6,7 @@ Colaboradores:
 Esse projeto se baseia no caso JKControl. Para a mesma, foi solicitada a criação de uma aplicação de cadastro de visitantes de condomínios.
 
 Cadastro de visitantes:
-![Driagrama](https://github.com/GiulioBernardi/fotos/blob/master/listagem.png)
+![Driagrama](https://github.com/GiulioBernardi/fotos/blob/master/cadastro.png)
 
 
 Listagem de visitantes:
